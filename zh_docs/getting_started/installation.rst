@@ -32,7 +32,7 @@ outline the steps necessary for you to follow the :doc:`tutorial`.
 .. _django-sekizai: https://github.com/ojii/django-sekizai
 .. _html5lib: http://code.google.com/p/html5lib/
 
-建议
+推荐
 ===========
 
 * 用 `django-filer`_ 及 `django CMS plugins`_, 一个文件、图像管理应用，替代某些核心插件
@@ -45,15 +45,11 @@ outline the steps necessary for you to follow the :doc:`tutorial`.
 在Ubuntu上安装
 ==============
 
-.. warning::
+.. 警告::
 
-    The instructions here install certain packages, such as PIL, Django, South
-    and django CMS globally, which is not recommended. We recommend you use
-    `virtualenv`_ instead. If you choose to do so, install Django,
-    django CMS and South inside a virtualenv.
+    下面的指令会在全局安装某些软件包，如PIL, Django, South和django CMS，不建议这    么做。我们建议使用 `virtualenv`_ ，这样就会把Django, django CMS和South安装在    一个python的虚拟环境里。
 
-If you're using Ubuntu (tested with 10.10), the following should get you
-started:
+如果你用的是Ubuntu (在10.10上测试过)，可以用下面的步骤：
 
 .. code-block:: bash
 
