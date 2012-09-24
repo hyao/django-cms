@@ -2,7 +2,8 @@
 django CMS
 ##########
 
-一个管理层次性内容页面的Django应用(内容管理系统)，支持多语言、多站点。
+A Django application for managing hierarchical pages of content, possibly in
+multiple languages and/or on multiple sites.
 
 Django CMS handles the navigation rendering for you with clean, slug based URLs,
 and this navigation can be extended by custom Django applications
