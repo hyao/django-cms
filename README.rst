@@ -23,7 +23,7 @@ Django CMS (Django内容管理系统)用简洁、基于slug的URL处理导航渲
 `3rd party plugins <http://www.djangopackages.com/grids/g/django-cms/>`_ 
 。如果找不到你需要的插件，写一个插件也很简单。
 
-更多信息请访问`我们的网站 <http://www.django-cms.org>`_。
+更多信息请访问 `我们的网站 <http://www.django-cms.org>`_。
 
 *************
 文档
