@@ -4,11 +4,10 @@ django CMS
 
 一个管理层次性内容页面的Django应用(内容管理系统)，支持多语言、多站点。
 
-Django CMS handles the navigation rendering for you with clean, slug based URLs,
+Django CMS (Django内容管理系统) handles the navigation rendering for you with clean, slug based URLs,
 and this navigation can be extended by custom Django applications
 
-You can define editable areas, called placeholders, in your templates which you
-can fill with CMS plugins, by default we ship the following plugins:
+你可以在模板中定义可编辑区域(称为placeholder)，加入CMS插件，Django CMS默认配置包括下列插件：
 
 * File
 * Flash
@@ -21,26 +20,23 @@ can fill with CMS plugins, by default we ship the following plugins:
 * Video
 * Twitter
 
-However this is not the end of the list, there are many
+还有更多第三方插件，详见:
 `3rd party plugins <http://www.djangopackages.com/grids/g/django-cms/>`_ 
-already available for you to use. Should you be unable to find a suitable plugin
-for you needs, writing your own is very simple.
+。如果找不到你需要的插件，写一个插件也很简单。
 
-More information on `our website <http://www.django-cms.org>`_. 
+更多信息请访问 `我们的网站 <http://www.django-cms.org>`_. 
 
 *************
-Documentation
+文档
 *************
 
-Please head over to our `documentation <http://docs.django-cms.org/>`_ for all
-the details on how to install, extend and use the django CMS.
+关于如何安装、扩展、使用Django CMS，请访问 `文档 <http://docs.django-cms.org/>`_
 
 ************
-Getting Help
+获取帮助
 ************
 
-Please head over to our IRC channel, #django-cms, on irc.freenode.net or write
-to our `mailing list <https://groups.google.com/forum/#!forum/django-cms>`_.
+请访问我们在irc.freenode.net上的IRC频道: #django-cms, 或者加入 `邮件列表 <https://groups.google.com/forum/#!forum/django-cms>`_。
 
 *******
 Credits
