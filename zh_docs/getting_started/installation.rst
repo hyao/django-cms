@@ -2,9 +2,7 @@
 安装
 ############
 
-本文假定你熟悉Python和Django。
-It should
-outline the steps necessary for you to follow the :doc:`tutorial`.
+本文假定你熟悉Python和Django，包括了一些主要步骤，完成后可以参看 :doc:`tutorial`。
 
 ************
 要求
@@ -57,21 +55,21 @@ outline the steps necessary for you to follow the :doc:`tutorial`.
     sudo easy_install pip
     sudo pip install Django==1.4 django-cms south
 
-Additionally, you need the Python driver for your selected database:
+另外，你需要所选数据库的Python驱动程序:
 
 .. code-block:: bash
 
     sudo aptitude python-psycopg2
 
-or
+或
 
 .. code-block:: bash
 
     sudo aptitude install python-mysql
 
-This will install PIL and your database's driver globally.
+上述命令会在全局安装PIL和数据库的驱动程序。
 
-You have now everything that is needed for you to follow the :doc:`tutorial`.
+现在你已完成了初步安装，下一步可以参看 :doc:`tutorial`。
 
 
 On Mac OSX
@@ -86,17 +84,15 @@ On Microsoft Windows
 **TODO**.
 
 *********
-Databases
+数据库
 *********
 
-We recommend using `PostgreSQL`_ or `MySQL`_ with django CMS. Installing and
-maintaining database systems is outside the scope of this documentation, but is
-very well documented on the systems' respective websites.
+我们建议使用 `PostgreSQL`_ 或 `MySQL`_ 作为django CMS的数据库。数据库系统的安装、使用，不属于本文档的范围，在这些软件的网站上有很好的文档。
 
-To use django CMS efficiently, we recommend:
+为了有效地使用django CMS，我们建议：
 
-* Creating a separate set of credentials for django CMS.
-* Creating a separate database for django CMS to use.
+* 为django CMS使用一套单独的credentials；
+* 为django CMS创建一个独立的数据库。
 
 .. _PostgreSQL: http://www.postgresql.org/
 .. _MySQL: http://www.mysql.com
