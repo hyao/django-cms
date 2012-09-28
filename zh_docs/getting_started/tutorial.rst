@@ -1,46 +1,41 @@
 #####################
-Introductory Tutorial
+入门教程
 #####################
 
-This guide assumes your machine meets the requirements outlined in the
-:doc:`installation` section of this documentation.
+本教程假定你的电脑满足 :doc:`installation` 一节中提及的要求。 
 
 
 ************
-Getting help
+获取帮助
 ************
 
-Should you run into trouble and can't figure out how to solve it yourself, you
-can get help from either our `mailinglist`_ or IRC channel ``#django-cms`` on
-the ``irc.freenode.net`` network.
+如果你遇到问题，不知道怎么解决，可以从我们的 `mailinglist`_ 或 ``irc.freenode.net`` 网络上的IRC频道 ``#django-cms`` 获得帮助。
 
 
 ***********************
-Configuration and setup
+配置与设置
 ***********************
 
 
-Preparing the environment
+准备环境
 =========================
 
-Gathering the requirements is a good start, but we now need to give the CMS a 
-Django project to live in, and configure it.
+满足前面所提的要求是个好的开始，现在需要把CMS放在一个Django项目中，并进行配置。
 
 
-Starting your Django project
+开始你的Django项目
 ----------------------------
 
-The following assumes your project will be in ``~/workspace/myproject/``.
+下面假定你的项目目录为: ``~/workspace/myproject/``.
 
-Set up your Django project::
+启动你的Django项目::
 
     cd ~/workspace
     django-admin.py startproject myproject
     cd myproject
     python manage.py runserver
 
-Open `127.0.0.1:8000 <http://127.0.0.1:8000>`_ in your browser. You should see a
-nice "It Worked" message from Django.
+在浏览器中打开 `127.0.0.1:8000 <http://127.0.0.1:8000>`_ 。你会看到Django页面：  "It Worked" 。
 
 |it-worked|
 
@@ -49,7 +44,7 @@ nice "It Worked" message from Django.
 
 .. _configure-django-cms:
 
-Installing and configuring django CMS in your Django project
+在你的Django项目中安装、配置django CMS
 ------------------------------------------------------------
 
 Open the file ``~/workspace/myproject/settings.py``.
